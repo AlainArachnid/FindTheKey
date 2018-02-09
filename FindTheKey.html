@@ -118,14 +118,19 @@ function playLetter() {
 	if (modeSpelling != 'fr') return;
 	var iASCII = lastLetter.charCodeAt();
 	switch(modeAlphanum){
-		case"le":
+		case "le":
 			if (sndFrenchLetter[iASCII - 65]) {
-			sndFrenchLetter[iASCII - 65].play();
+				sndFrenchLetter[iASCII - 65].play();
 			}
 			break;
-		case"nu":
+		case "nu":
 			if (sndFrenchNumber[iASCII - 48]) {
-			sndFrenchNumber[iASCII - 48].play();
+				sndFrenchNumber[iASCII - 48].play();
+			}
+			break;
+		default:
+			if (sndFrenchLetter[iASCII - 65]) {
+				sndFrenchLetter[iASCII - 65].play();
 			}
 			break;
 	}
