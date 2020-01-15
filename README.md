@@ -5,3 +5,6 @@ Pure HTML + javascript, everything included in a single file
 
 To play:
 https://rawgit.com/AlainArachnid/FindTheKey/master/FindTheKey.html
+
+or here: http://alainarachnid.free.fr/FindTheKey.html
+
